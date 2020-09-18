@@ -101,10 +101,10 @@ jspdf.onload = function () {
                 }else{
                     setTimeout(function() {
                         generatePDF();
-                    }, 1500)
+                    }, 15000)
                 }
 
-            }, 500)
+            }, 700)
         }
         myLoop(0, 0);
 
@@ -112,7 +112,7 @@ jspdf.onload = function () {
         console.log("No Scroll");
         setTimeout(function() {
             generatePDF();
-        }, 1500)
+        }, 15000)
     }
 
 };
